@@ -11,6 +11,14 @@
     font-size: 3rem;
 }
 
+.ml-2 {
+    margin-left: 2rem;
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
 .text-center {
     text-align: center;
 }
@@ -36,7 +44,7 @@ footer {
     height: 12rem;
     background-color: #030303;
     margin-top: auto;
-    padding: 1.5rem;;
+    padding: 1.5rem 0 1.5rem 0;
     margin: 0;
 }
 
@@ -127,6 +135,18 @@ header {
     margin: 1rem 1rem 1rem 1rem;
 }
 
+.navbar-item-style {
+    text-decoration: none;
+    color: black;
+    font-family: "Tahoma", sans-serif;
+}
+
+.navbar-item-style1 {
+    color: yellow;
+    text-decoration: none;
+
+}
+
 .hamburger-toggle {
     background-color: black;
     position: absolute;
@@ -145,6 +165,11 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: end;
+}
+
+.menuToggle2 {
+    background-color: black;
+    width: 100%;
 }
 
 .div-wrapper {

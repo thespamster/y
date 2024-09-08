@@ -1,5 +1,11 @@
 console.log('JS loaded');
 
+document.getElementById('hamburgerToggle').onclick = function() {
+    var element = document.getElementById("hamMenuToggle");
+    element.classList.toggle("display-none");
+
+}
+
 function navbarShrink (x) {
     if (x.matches) {
         var navbarMenu = document.getElementById("navbarMenu");
@@ -11,6 +17,8 @@ function navbarShrink (x) {
 
         var hamburgerIcon = document.getElementById("hamburgerToggle");
         hamburgerIcon.classList.remove("display-none");
+
+
     } else {
         var navbarMenu = document.getElementById("navbarMenu");
         navbarMenu.classList.remove("display-none");

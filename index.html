@@ -21,17 +21,24 @@
     <div id="headerIcon" class="header-icon">Y</div>
     <div id="hamburgerToggle" class="hamburger-toggle display-none"><svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="yellow" class="bi bi-list" viewBox="0 0 16 16">
         <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
-      </svg></div>
+        </svg></div>
     <div id="navbarMenu" class="navbar-menu menuToggle">
-        <div class="navbar-item-space">Intro</div>
-        <div class="navbar-item-space">Halloumunati</div>
-        <div class="navbar-item-space">Page 3</div>
+        <div class="navbar-item-space"><a href="#intro" class="navbar-item-style">Intro</a></div>
+        <div class="navbar-item-space"><a href="#" class="navbar-item-style">Triple Threat</a></div>
+        <div class="navbar-item-space"><a href="#hallouminati" class="navbar-item-style">Halloumunati</a></div>
+        <div class="navbar-item-space"><a href="#contact" class="navbar-item-style">Contact Us</a></div>
     </div>
     </div>
 </header>
 <body>
     <div class="container">
-        <div class="page-div intro-div-col">
+        <div id="hamMenuToggle" class="menuToggle2 mb-2 display-none">
+            <p class="text-center"><a href="#intro" class="navbar-item-style1 tahoma400">Intro</a></p>
+            <p class="text-center"><a href="#" class="navbar-item-style1 tahoma400">Triple Threat</a></p>
+            <p class="text-center"><a href="#hallouminati" class="navbar-item-style1 tahoma400">Halloumunati</a></p>
+            <p class="text-center"><a href="#contact" class="navbar-item-style1 tahoma400">Contact Us</a></p>
+        </div>
+        <div class="page-div intro-div-col" id="intro">
             <div class="image-div">
                 <img src="assets/images/robot_newsreader_ai.webp" alt="robot newsreader" class="flex-image">
             </div> 
@@ -52,7 +59,11 @@
             </div>
         </div>
 
-        <div class="hallouminati-header">
+        <div class="triple-topic-div">
+
+        </div>
+
+        <div class="hallouminati-header" id="hallouminati">
             <div class="hallouminati-header-style">
                 <div class="hallouminati-text-style center-div">The Hallouminati</div>
             </div>
@@ -64,20 +75,22 @@
                 </div> 
                 <div class="text-div">
                     <p>
-                    The Hallouminati are a secret society that has been around for centuries. They are the ones who control the world
-                    from behind the scenes. They are the ones who pull the strings and make the decisions that affect us all. They are the ones
-                    who are responsible for the chaos and the suffering in the world. They are the ones who are hiding the truth from us.
+                    The Hallouminati are a secret society that has been around for centuries.
+                    They are the ones who control the world of cheese from behind the scenes. 
+                    Have you heard the stories of the moon being made of cheese? The Hallouminati
+                    are the ones trying to keep this information from us.
                     </p>
                     <p>
-                    The Hallouminati are the ones who are behind the 'fake news' and the 'conspiracy theories'. They are the ones who are
-                    trying to keep us in the dark and prevent us from seeing the truth. But we are here to expose them and bring their
-                    secrets to light. We are here to reveal the truth and show the world what is really going on. We are here to fight
-                    the Hallouminati and bring them down once and for all.
+                    Why is the average density of the moon the same as that of an artisanal blue cheese?
+                    Why would people lie about the composition of the moon? It's simple, have you seen the 
+                    price of blue cheese. World cheese prices would collapse if we mined the Moon. The
+                    Hallouminati or as they're also know 'Big Cheese' know this and have for hundreds of
+                    years lied to the World.
                     </p>
                     <p>
-                    Join us in our fight against the Hallouminati. Join us in our quest for the truth. Join us in our mission to uncover
+                    Join us in our fight to expose the Hallouminati. Join us in our quest for the truth. Join us in our mission to uncover
                     the secrets that have been hidden from us for so long. Together we can make a difference. Together we can change the world.
-                    Together we can defeat the Hallouminati and bring about a new era of peace and prosperity for all.
+                    Together we can defeat the Hallouminati and bring about a new era of peace, prosperity and cheaper cheese for all.
                     </p>
                 </div>
         
@@ -91,19 +104,19 @@
 </body>
 <footer>
     
-    <div class="footer-icons">
-        <p><a href="notalink.html">
+    <div class="footer-icons" id="contact">
+        <p class="ml-2"><a href="notalink.html">
             <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="yellow" class="bi bi-mastodon" viewBox="0 0 16 16">
             <path d="M11.19 12.195c2.016-.24 3.77-1.475 3.99-2.603.348-1.778.32-4.339.32-4.339 0-3.47-2.286-4.488-2.286-4.488C12.062.238 10.083.017 8.027 0h-.05C5.92.017 3.942.238 2.79.765c0 0-2.285 1.017-2.285 4.488l-.002.662c-.004.64-.007 1.35.011 2.091.083 3.394.626 6.74 3.78 7.57 1.454.383 2.703.463 3.709.408 1.823-.1 2.847-.647 2.847-.647l-.06-1.317s-1.303.41-2.767.36c-1.45-.05-2.98-.156-3.215-1.928a4 4 0 0 1-.033-.496s1.424.346 3.228.428c1.103.05 2.137-.064 3.188-.189zm1.613-2.47H11.13v-4.08c0-.859-.364-1.295-1.091-1.295-.804 0-1.207.517-1.207 1.541v2.233H7.168V5.89c0-1.024-.403-1.541-1.207-1.541-.727 0-1.091.436-1.091 1.296v4.079H3.197V5.522q0-1.288.66-2.046c.456-.505 1.052-.764 1.793-.764.856 0 1.504.328 1.933.983L8 4.39l.417-.695c.429-.655 1.077-.983 1.934-.983.74 0 1.336.259 1.791.764q.662.757.661 2.046z"/>
             </svg></span><span class="text tahoma400"> Join us on Mastodon</span>
         </a></p>
         
-        <p><a href="notalink.html">
+        <p class="ml-2"><a href="notalink.html">
             <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="yellow" class="bi bi-discord" viewBox="0 0 16 16">
             <path d="M13.545 2.907a13.2 13.2 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.2 12.2 0 0 0-3.658 0 8 8 0 0 0-.412-.833.05.05 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.04.04 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032q.003.022.021.037a13.3 13.3 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019q.463-.63.818-1.329a.05.05 0 0 0-.01-.059l-.018-.011a9 9 0 0 1-1.248-.595.05.05 0 0 1-.02-.066l.015-.019q.127-.095.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.05.05 0 0 1 .053.007q.121.1.248.195a.05.05 0 0 1-.004.085 8 8 0 0 1-1.249.594.05.05 0 0 0-.03.03.05.05 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.2 13.2 0 0 0 4.001-2.02.05.05 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.03.03 0 0 0-.02-.019m-8.198 7.307c-.789 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612m5.316 0c-.788 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612"/>
             </svg></span><span class="text tahoma400"> Join us on Discord</span>
         </a></p>
-        <p><a href="notalink.html">
+        <p class="ml-2"><a href="notalink.html">
             <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="yellow" class="bi bi-envelope-fill" viewBox="0 0 16 16">
             <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
             </svg></span><span class="text tahoma400"> Email us</span>
