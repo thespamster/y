@@ -1,6 +1,8 @@
 # Y
 
-A spoof conspiracy / news site to allow me to experiment with ai image generation and different layouts. This site will be uploaded to Wordpress when complete.
+A spoof conspiracy / news site to allow me to experiment with ai image generation and different layouts. This site is available on Github Pages here:
+
+[Y News](https://thespamster.github.io/y/)
 
 The site has been built using HTML5, CSS3 and Javascript. The only library used is the Bootstrap Icon library that provides the SVG icons used in the footer. All the code is vanilla HTML5, CSS3 and Javascript just to demonstrate an ability to build code from scratch without relying on code libraries.
 
