@@ -290,7 +290,19 @@ header {
 
 .display-block {
     display: block;
-}   
+}  
+
+#btn-4ux {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(191, 191, 191);
+    padding: 5px;
+    border: 2px solid #000000;
+}
+
+#btn-4ux:hover {
+    background-color: rgb(236, 236, 236);
+}
 
 @media  screen and (max-width: 992px) {
     .page-div {
